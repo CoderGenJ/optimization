@@ -1,0 +1,2 @@
+add_library(camera_reprojection camera_reprojection.cpp)
+target_link_libraries(camera_reprojection Ceres::ceres)
